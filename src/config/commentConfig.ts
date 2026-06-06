@@ -2,15 +2,15 @@ import type { CommentConfig } from "../types/config";
 
 export const commentConfig: CommentConfig = {
 	// 评论系统类型: none, twikoo, waline, giscus, disqus, artalk，默认为none，即不启用评论系统
-	type: "none",
+	type: "twikoo",
 
 	//twikoo评论系统配置
 	twikoo: {
-		envId: "https://twikoo.vercel.app",
+		envId: "https://api.zeas.top/twikoo/",
 		// 设置 Twikoo 评论系统语言
 		lang: "zh-CN",
 		// 是否启用文章访问量统计功能
-		visitorCount: true,
+		visitorCount: false,
 		// Twikoo JS 文件地址，支持 CDN 链接
 		// 中国推荐1: https://registry.npmmirror.com/twikoo/1.7.9/files/dist/twikoo.min.js
 		// 中国推荐2: https://s4.zstatic.net/npm/twikoo@1.7.9/dist/twikoo.min.js
@@ -23,7 +23,7 @@ export const commentConfig: CommentConfig = {
 	//waline评论系统配置
 	waline: {
 		// waline 后端服务地址
-		serverURL: "https://waline.vercel.app",
+		serverURL: "",
 		// 设置 Waline 评论系统语言
 		lang: "zh-CN",
 		// 设置 Waline 评论系统表情地址
@@ -44,7 +44,7 @@ export const commentConfig: CommentConfig = {
 	// artalk评论系统配置
 	artalk: {
 		// artalk后端程序 API 地址
-		server: "https://artalk.example.com/",
+		server: "",
 		// 设置 Artalk 语言
 		locale: "zh-CN",
 		// 是否启用文章访问量统计功能
