@@ -64,7 +64,7 @@ category: 教程
 测速站：[ITDOG](https://www.itdog.cn)  
 测速模式：网站测速  
 测速效果受一定因素影响  
-最后更新于**26/4/3**
+最后更新于**26/5/5**
 :::
 
 [grid]
@@ -79,7 +79,7 @@ category: 教程
 
 ## 其他
 - 优选[Vercel](#vercel--netlify)时：  
-  如果你优选的项目是需要**记录访问者IP**（评论系统、统计系统…）的，使用`vercel-cname.xingpingcn.top`这个优选域名会导致IP全跑到CDN节点  
+  如果你优选的项目是需要**记录访问者IP**（评论系统、统计系统…）的，使用`vercel-cname.xingpingcn.top`和站长维护的优选域名会导致IP全跑到CDN节点  
   解决方法就是使用[官方默认的泛播域名](#优选域名)
 - 自Cloudflare更新使用条款，**优选IP为违规行为**，后果包括但不限于封禁账号
 - Netlify的IP在部分地区会被阻断，所以尽管效果优选效果看起来很好，加载速度还是会有些慢
@@ -107,12 +107,12 @@ category: 教程
 
 |优选域名|关于|
 |-|-|
-|`zeas.top`|抓自[WeTest.vip](https://www.wetest.vip/page/cloudflare/address_v4.html)，三网优选|
-|`vercel.zeas.top`|国内大部分地区走反代SNI节点，少部分走泛播节点；境外一律走泛播节点|
+|`zeas.top`|抓自[WeTest.Vip](https://www.wetest.vip/page/cloudflare/address_v4.html)，三网优选|
+|`vercel.zeas.top`|境内：地域解析 → 反代SNI节点、泛播节点，否则：泛播节点|
 |`netlify.zeas.top`|优选泛播节点➕新加坡节点|
 
 ---
-[^1]: > 华为云仅为示范，其他如阿里云、DNSPod等DNS服务商也能实现此效果      
+[^1]: > 华为云仅为示范。其他如阿里云、DNSPod等DNS服务商也能实现此效果      
       
-      若无法注册国际版请使用国际互联网环境后再试
-      若您的域名已备案也可用国内版
+     若无法注册国际版请使用国际互联网环境后再试
+     若您的域名已备案也可用国内版
