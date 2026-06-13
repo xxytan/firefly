@@ -1,7 +1,7 @@
 ---
 title: 博客日志
 published: 2007-07-08
-image: https://roc.us.ci/p/logs/cover.webp
+image: https://oh.os.kg/p/logs/cover.webp
 description: 记录博客所发生的变化
 pinned: true
 comment: false
