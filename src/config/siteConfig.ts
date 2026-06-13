@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "Kent's Blog",
 
 	// 站点 URL
-	site_url: "https://b.oxue.de",
+	site_url: "https://www.oxue.de",
 
 	// 站点描述
 	description:
